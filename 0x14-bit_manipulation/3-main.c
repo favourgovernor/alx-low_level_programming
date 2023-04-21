@@ -11,7 +11,7 @@ int main(void)
     unsigned long int n;
 
     n = 1024;
-    set_bit(&n, 5);
+    get_bit(&n, 5);
     printf("%lu\n", n);
     n = 0;
     set_bit(&n, 10);
